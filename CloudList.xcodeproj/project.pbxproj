@@ -17,6 +17,7 @@
 		C8FBCA861C977B3600524370 /* CloudListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8FBCA851C977B3600524370 /* CloudListTests.swift */; };
 		C8FBCA921C977D3400524370 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8FBCA911C977D3400524370 /* CloudKit.framework */; };
 		C8FBCA961C9782E100524370 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = C8FBCA951C9782E100524370 /* Podfile */; };
+		C8FBCA981C979C0600524370 /* AddListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8FBCA971C979C0600524370 /* AddListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		C8FBCA901C977CE400524370 /* CloudList.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = CloudList.entitlements; sourceTree = "<group>"; };
 		C8FBCA911C977D3400524370 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		C8FBCA951C9782E100524370 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C8FBCA971C979C0600524370 /* AddListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddListViewController.swift; sourceTree = "<group>"; };
 		EE755685C5188A01AA915CBF /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBC5E495AE8E7866FD87CF4D /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -114,6 +116,7 @@
 				C8FBCA901C977CE400524370 /* CloudList.entitlements */,
 				C8FBCA6D1C977B3600524370 /* AppDelegate.swift */,
 				C8FBCA6F1C977B3600524370 /* ListsViewController.swift */,
+				C8FBCA971C979C0600524370 /* AddListViewController.swift */,
 				C8FBCA711C977B3600524370 /* Main.storyboard */,
 				C8FBCA771C977B3600524370 /* Assets.xcassets */,
 				C8FBCA791C977B3600524370 /* LaunchScreen.storyboard */,
@@ -293,6 +296,7 @@
 			files = (
 				C8FBCA701C977B3600524370 /* ListsViewController.swift in Sources */,
 				C8FBCA6E1C977B3600524370 /* AppDelegate.swift in Sources */,
+				C8FBCA981C979C0600524370 /* AddListViewController.swift in Sources */,
 				C8FBCA761C977B3600524370 /* CloudList.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
